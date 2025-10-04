@@ -10,18 +10,18 @@ public class PE02_OriolSarda_exercici_presa_decisions {
         rodegar = false;
 
 
-        System.out.println("És l any 1333. Ets un jove caballer que serveix a l imperi de Catalunya. El teu rey t envia a explorar un castell a les terres properes, amb el nom de Raul Belly, fa varies dècades que està abandonat.");
+        System.out.println("És l any 1333. Ets un jove caballer que serveix a l’imperi de Catalunya. El teu rey t’envia a explorar un castell a les terres properes, amb el nom de Raul Belly, fa varies dècades que està abandonat.");
         System.out.println("En arribar al camí de pujada, trobes una espasa vella.");
         System.out.println("Vols agafar l espasa? (true/false)");
         espasa = e.nextBoolean();
 
         if (espasa == true)
         {
-            System.out.println("Decideixes agafar lespasa i continuar el camí.");
+            System.out.println("Decideixes agafar l’espasa i continuar el camí.");
         }
         else if (espasa == false)
         {
-            System.out.println("Decideixes no agafar l espasa i continuar el camí.");
+            System.out.println("Decideixes no agafar l’espasa i continuar el camí).");
         }
             System.out.println("Arribes al davant del castell");
             System.out.println("Et trobes amb 2 opcions les quals son rodegar el castell per inspeccionar el cami o entrara directament al castell.");
@@ -50,7 +50,7 @@ public class PE02_OriolSarda_exercici_presa_decisions {
 
                 if (decisio1 == 1)
                 {
-                    System.out.println("Si pujes l escala, dalt hi ha una porta la qual requereix una clau. Intentes forçar la porta, però el terra col·lapsa degut a la mala condició del castell i caus lesionante les cames.");
+                    System.out.println("Si pujes l’escala, dalt hi ha una porta la qual requereix una clau. Intentes forçar la porta, però el terra col·lapsa degut a la mala condició del castell i caus lesionante les cames.");
                     System.out.println("Final tràgic (No pots continuar ja que et lesiones greument).");
                 }   
                 else if (decisio1 == 2 && espasa == true)
@@ -61,7 +61,7 @@ public class PE02_OriolSarda_exercici_presa_decisions {
                 }
                 else if (decisio1 == 2 && espasa == false)
                 {
-                    System.out.println("Si no tens l espasa vella, no pots obrir el cofre.");
+                    System.out.println("Si no tens l’espasa vella, no pots obrir el cofre.");
                     System.out.println("Pujes per l'escala i intentes forçar la porta, però el terra col·lapsa degut a la mala condició del castell i caus lesionante les cames.");
                     System.out.println("Final tràgic (No pots continuar ja que et lesiones greument).");
                 }
@@ -77,7 +77,7 @@ public class PE02_OriolSarda_exercici_presa_decisions {
                     decisio1 = e.nextInt();
                     if (decisio1 == 1)
                     {
-                        System.out.println("Et canses d intentar moure l alter i surts del castell sense res.");
+                        System.out.println("Et canses d’intentar moure l’alter i surts del castell sense res.");
                         System.out.println("Final neutre (No aconsegueixes res).");
                     }
                     else if (decisio1 ==2)
